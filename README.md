@@ -1,8 +1,6 @@
-# BNCL Assignment 2 – Solution README (casual explainer)
+# BNCL Assignment 2 – Solution README
 
-Hey team 👋 This doc walks through what’s in our `Assignment2Solution.sql`, why it’s written that way, and how to run + test it quickly. It’s written for us (not the marker), so it’s chatty but still precise.
-
-> Heads-up: The unit bans “gen‑AI” in submissions. Please follow the unit rules when you package your final deliverables.
+This doc walks through what’s in our `Assignment2Solution.sql`, why it’s written that way, and how to run + test it quickly. It’s written for us (not the marker), so it’s chatty but still precise.
 
 ---
 
@@ -21,7 +19,7 @@ All of this lines up with the spec’s BR1–BR10 and Tasks 2–4.
 ---
 
 ## How to run this quickly
-1. Open **MySQL Workbench** (local server provided by iLearn).  
+1. Open **MySQL Workbench**.  
 2. Run the baseline schema:  
    `COMP2350_2025S2_Assignment2_SQL v2.1 (iLearn - local server).sql`
 3. Switch to the working schema if needed (the script starts with `USE ...;`).  
@@ -422,7 +420,7 @@ SELECT * FROM LoyaltyTransaction WHERE orderID = 2;
 
 ---
 
-## Design choices (why we did it like this)
+## Design choices
 
 - **Round points at the end** of the `calcLoyaltyPoints` path. Simple and matches “$1 → 1 point”.  
 - **Use transactions** in `CheckoutOrder` to keep stock, points, and payment checks atomic. Any failure → rollback.  
@@ -451,4 +449,4 @@ SELECT * FROM LoyaltyTransaction WHERE orderID = 2;
 - `Assignment2Solution.sql` – our functions, procedure, triggers + test snippets.
 - This `README.md` – how to run and what to screenshot.
 
-If anything’s unclear, ping in the group chat and we’ll tweak. 🍵
+If anything’s unclear, ping in the group chat and we’ll tweak.
