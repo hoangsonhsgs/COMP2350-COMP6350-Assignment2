@@ -1,8 +1,9 @@
 -- use your unit code followed by your group ID. 
 -- For example, if you are enrolled in COMP2350, and your group ID is G09
 -- then, replace XXX with COMP2350_G09
-CREATE DATABASE XXX; 
-USE XXX;
+DROP DATABASE IF EXISTS COMP2350_zA2W29TeamD;
+CREATE DATABASE COMP2350_zA2W29TeamD; 
+USE COMP2350_zA2W29TeamD;
 
 -- User table 
 CREATE TABLE User (

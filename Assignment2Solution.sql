@@ -86,7 +86,7 @@ DELIMITER ;
 -- ================================================================
 
 /*
-3.1 redeemGiftCard — DESIGN ONLY (no code needed)
+3.1 redeemGiftCard — DESIGN ONLY
 Purpose (BR2, BR3, BR4):
   Use a valid, active, non-expired gift card with enough balance to pay part/all of an order.
 Inputs:
