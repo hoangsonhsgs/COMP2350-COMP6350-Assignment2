@@ -1,6 +1,6 @@
 # BNCL Assignment 2 – Solution README
 
-This doc walks through what’s in our `Assignment2Solution.sql`, why it’s written that way, and how to run + test it quickly. It’s written for us (not the marker), so it’s chatty but still precise.
+This doc walks through what’s in the `Assignment2Solution.sql`, why it’s written that way, and how to run + test it quickly. It’s written for us (not the marker), so it’s chatty but still precise.
 
 ---
 
