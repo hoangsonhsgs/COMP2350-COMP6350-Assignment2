@@ -104,7 +104,7 @@ VALUES
 ((SELECT userID FROM `User` WHERE email='t23_simple@example.com' LIMIT 1), 0.99,   'Delivered'),
 ((SELECT userID FROM `User` WHERE email='t23_simple@example.com' LIMIT 1), 100.00, 'Delivered');
 
--- Show results for ALL the above orders (easy screenshot)
+-- Show results for ALL the above orders
 SELECT orderID, orderStatus, totalAmount,
        calcLoyaltyPoints(orderID) AS pts
 FROM CusOrder
